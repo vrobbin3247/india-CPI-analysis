@@ -276,8 +276,7 @@ urban_old_gi, urban_new_gi,urban_date = old_new_extractor(selected_state,"Urban"
 rural_urban_old_gi, rural_urban_new_gi,combined_date = old_new_extractor(selected_state,"Combined")
 gi_date = pd.Timestamp(rural_date)
 
-cola1.subheader(f"CPI of {selected_state} for {gi_date.strftime("%B %Y")}")
-
+cola1.subheader(f"CPI of {selected_state} for {gi_date.strftime('%B %Y')}")
 col1, col2, col3 = st.columns(3)
 col1.metric("Rural", value=rural_new_gi, delta=f"{round(((rural_new_gi - rural_old_gi) / rural_old_gi) * 100, 2)}%", delta_color="inverse")
 col2.metric("Urban", value=urban_new_gi, delta=f"{round(((urban_new_gi - urban_old_gi) / urban_old_gi) * 100, 2)}%", delta_color="inverse" )
