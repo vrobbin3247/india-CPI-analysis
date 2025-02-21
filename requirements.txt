@@ -6,4 +6,4 @@ joblib
 streamlit_theme
 tensorflow
 numpy
-sklearn
+scikit-learn
