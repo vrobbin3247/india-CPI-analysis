@@ -4,7 +4,7 @@ import altair as alt
 import plotly.express as px
 import json
 import joblib
-from streamlit_theme import st_theme
+# from streamlit_theme import st_theme
 import time
 import tensorflow as tf
 import numpy as np
@@ -19,7 +19,7 @@ st.title("Consumer Price Index (CPI) Analysis: 2013-2025")
 
 # File path
 DATA_URL = "cpi_data_mospi_base12.csv"
-theme = st_theme()
+# theme = st_theme()
 
 @st.cache_data
 def load_data():
@@ -234,7 +234,8 @@ def show_map(sector,latest_cpi):
         countrycolor="black",
         showframe=False,
         showcoastlines=False,
-        bgcolor=theme['backgroundColor'],
+        # bgcolor=theme['backgroundColor'],
+        bgcolor="#0E1117"
 
     )
 
