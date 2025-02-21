@@ -1,0 +1,8 @@
+streamlit
+pandas
+altair
+plotly
+joblib
+streamlit_theme
+tensorflow
+numpy
