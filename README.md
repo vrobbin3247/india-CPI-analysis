@@ -42,7 +42,7 @@ The CPI data is categorized into:
 - Displays CPI change between the current month and the previous month along with the percentage change.
 - Applied to the **General** category across Urban, Rural, and Combined sectors.
 - Users can select a specific state to view its CPI change.
-- ![CPI Change Metrics](./test%20scripts/metric.gif)
+  ![CPI Change Metrics](./test%20scripts/metric.gif)
 
 ### 2. Line Chart Analysis
 - Users can compare data from multiple states, sectors, groups, and subgroups.
@@ -50,7 +50,7 @@ The CPI data is categorized into:
 - A date slider allows users to select a specific time range for analysis.
 - Users can enable a checkbox to view filtered data in tabular form.
 - Filtered data can be downloaded as a CSV file.
-- ![Line chart](./test%20scripts/analysis.gif)
+  ![Line chart](./test%20scripts/analysis.gif)
 
 ### 3. State-wise CPI Visualization
 - Users can visualize CPI for different states by selecting a sector (Rural, Urban, or Combined).
@@ -58,13 +58,13 @@ The CPI data is categorized into:
   - Table
   - Bar Chart
   - Map of India (using Plotly and GeoJSON state boundary data)
-  - ![state analysis](./test%20scripts/maps.gif)
+    ![state analysis](./test%20scripts/maps.gif)
 
 ### 4. Trend Forecasting
 - Forecast CPI values for the next 5 months using historical data.
 - Users can select the value to be forecasted via a dropdown (e.g., "Milk and Products" index for Urban All India).
 - Displays historical data and predicted values on a single line chart.
-- ![forecasting](./test%20scripts/forecast.gif)
+  ![forecasting](./test%20scripts/forecast.gif)
 
 ## Usage Instructions
 1. Select a state from the dropdown to view CPI change metrics.
