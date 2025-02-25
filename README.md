@@ -1,3 +1,13 @@
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://india-cpi-analysis-2013-25.streamlit.app/)
+
+![Python](https://img.shields.io/badge/Python-3.12.2-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.42.1-red)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.18.0-orange)
+![GitHub Stars](https://img.shields.io/github/stars/vrobbin3247/india-CPI-analysis?style=social)
+![Forks](https://img.shields.io/github/forks/vrobbin3247/india-CPI-analysis?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/vrobbin3247/india-CPI-analysis)
+![License](https://img.shields.io/github/license/vrobbin3247/india-CPI-analysis)
+
 # 🚀 Streamlit Web App for CPI Data Analysis
 
 ## 📌 Overview
