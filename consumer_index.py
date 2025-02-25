@@ -16,7 +16,11 @@ import numpy as np
 st.title("Consumer Price Index (CPI) Analysis: 2013-2025")
 # st.divider()
 
-
+st.logo(
+    'INDIA_CPI_ANALYSIS.png',
+    link="https://github.com/vrobbin3247/india-CPI-analysis",
+    size="large"
+)
 # File path
 DATA_URL = "cpi_data_mospi_base12.csv"
 # theme = st_theme()
