@@ -6,7 +6,7 @@
 ![GitHub Stars](https://img.shields.io/github/stars/vrobbin3247/india-CPI-analysis?style=social)
 ![Forks](https://img.shields.io/github/forks/vrobbin3247/india-CPI-analysis?style=social)
 ![Last Commit](https://img.shields.io/github/last-commit/vrobbin3247/india-CPI-analysis)
-![License](https://img.shields.io/github/license/vrobbin3247/india-CPI-analysis)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/vrobbin3247/india-CPI-analysis/blob/main/LICENSE)
 
 # 🚀 Streamlit Web App for CPI Data Analysis
 
