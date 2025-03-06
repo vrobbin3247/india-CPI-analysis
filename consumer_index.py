@@ -8,6 +8,9 @@ import joblib
 import time
 import tensorflow as tf
 import numpy as np
+from yearForcaster import get_index_data
+from time_series_trainer import train_model
+
 
 
 
@@ -415,14 +418,40 @@ if available_subgroups:
 else:
     selected_subgroup = None  # No selection for groups without subgroups
 
-if popover.button("Run Forecast"):
+if popover.button("Run Forecast",key='b1'):
     predictions(selected_state,selected_sector,selected_group,selected_subgroup)
 
 
+cold1,cold2 = st.columns([1.5,3], vertical_alignment="bottom")
+popover = cold2.popover("select index to forcast for 1 year")
+selected_state_predict = popover.selectbox("Select States", df['state'].unique(),key="Select State")
 
+# **Sector Selection**
+selected_sector_predict = popover.selectbox("Select Sectors", df['sector'].unique(),key="Select Sector")
 
+# **Group Selection**
+selected_group_predict = popover.selectbox("Select Groups", df['group'].unique(),key="Select Group")
 
+available_subgroups_predict = set()
 
+available_subgroups_predict.update(group_to_subgroup.get(selected_group_predict, []))
+
+# Only show subgroups if they exist
+if available_subgroups_predict:
+    selected_subgroup_predict = popover.selectbox(
+        "Select Subgroup",
+        list(available_subgroups),
+        key="Select Subgroup"
+    )
+else:
+    selected_subgroup_predict = None  # No selection for groups without subgroups
+
+if popover.button("Run Forecast",key="b2"):
+    index_data = get_index_data(selected_state_predict,selected_sector_predict,selected_group_predict,selected_subgroup_predict)
+    if index_data.all()!=None:
+        model,predictor = train_model(index_data)
+    else:
+        st.warning("data doesn't exist")
 
 
 
