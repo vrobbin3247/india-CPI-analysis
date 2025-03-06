@@ -2,7 +2,6 @@ import numpy as np
 import tensorflow as tf
 import random
 import os
-import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from tensorflow.keras.models import Sequential
