@@ -1,5 +1,6 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://india-cpi-analysis-2013-25.streamlit.app/)
 
+![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fvrobbin3247%2Findia-CPI-analysis&label=views&icon=github&color=%23198754&message=&style=flat-square&tz=UTC)
 ![Python](https://img.shields.io/badge/Python-3.12.2-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.42.1-red)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.18.0-orange)
